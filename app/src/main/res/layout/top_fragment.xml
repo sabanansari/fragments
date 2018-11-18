@@ -3,14 +3,14 @@
 android:layout_width="match_parent"
 android:layout_height="match_parent">
 
-<TextView
-    android:id="@+id/random"
-    android:layout_width="180dp"
-    android:layout_height="wrap_content"
-    android:layout_alignParentTop="true"
-    android:layout_centerHorizontal="true"
-    android:layout_marginTop="56dp"
-    android:textSize="36sp" />
+    <TextView
+        android:id="@+id/random"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:textSize="36sp" />
 
 <Button
     android:id="@+id/generator"
@@ -21,5 +21,6 @@ android:layout_height="match_parent">
     android:layout_marginTop="121dp"
     android:onClick="generate"
     android:text="Generator" />
+
 
 </RelativeLayout>
